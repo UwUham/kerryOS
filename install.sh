@@ -28,10 +28,10 @@ echo "Drive ${BOOT} made boot and mounted to /mnt/efi."
 clear
 {
 read -p "Please select either kerryOS floating or kerryOS tiling (f/t): " ARG;
-if [ ${ARG} = f ]
+if [ ${ARG} = 'f' ]
 then
   DESKTOP=lxde
-elif [ ${ARG} = t ]
+elif [ ${ARG} = 't' ]
 then
   DESKTOP=i3-gaps
 fi
