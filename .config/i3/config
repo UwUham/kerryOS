@@ -159,4 +159,4 @@ client.focused          #701EC7 #701EC7 #701EC7 #701EC7 #701EC7
 
 gaps inner 10
 gaps outer 10
-gaps top 30
+gaps bottom 30
