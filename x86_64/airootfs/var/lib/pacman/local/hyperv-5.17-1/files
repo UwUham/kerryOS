@@ -1,0 +1,15 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/hv_fcopy_daemon
+usr/bin/hv_kvp_daemon
+usr/bin/hv_vss_daemon
+usr/lib/
+usr/lib/hyperv/
+usr/lib/hyperv/kvp_scripts/
+usr/lib/systemd/
+usr/lib/systemd/system/
+usr/lib/systemd/system/hv_fcopy_daemon.service
+usr/lib/systemd/system/hv_kvp_daemon.service
+usr/lib/systemd/system/hv_vss_daemon.service
+

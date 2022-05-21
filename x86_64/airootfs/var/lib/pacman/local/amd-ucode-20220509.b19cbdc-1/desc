@@ -1,0 +1,36 @@
+%NAME%
+amd-ucode
+
+%VERSION%
+20220509.b19cbdc-1
+
+%BASE%
+linux-firmware
+
+%DESC%
+Microcode update image for AMD CPUs
+
+%URL%
+https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+
+%ARCH%
+any
+
+%BUILDDATE%
+1652427572
+
+%INSTALLDATE%
+1653101766
+
+%PACKAGER%
+Laurent Carlier <lordheavym@archlinux.org>
+
+%SIZE%
+54958
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+

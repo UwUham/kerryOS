@@ -1,0 +1,36 @@
+%NAME%
+livecd-sounds
+
+%VERSION%
+1.0-1
+
+%BASE%
+livecd-sounds
+
+%DESC%
+Sound files for accessibility features in a boot medium
+
+%URL%
+https://alex19ep.me/public/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1602005582
+
+%INSTALLDATE%
+1653101771
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%SIZE%
+313665
+
+%LICENSE%
+CCPL
+
+%VALIDATION%
+pgp
+

@@ -1,0 +1,54 @@
+%NAME%
+refind
+
+%VERSION%
+0.13.3.1-1
+
+%BASE%
+refind
+
+%DESC%
+An EFI boot manager
+
+%URL%
+https://www.rodsbooks.com/refind/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1649850753
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%SIZE%
+1975859
+
+%LICENSE%
+BSD
+CCPL
+GPL2
+GPL3
+LGPL3
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+bash
+dosfstools
+efibootmgr
+
+%OPTDEPENDS%
+gptfdisk: for finding non-vfat ESP with refind-install
+imagemagick: for refind-mkfont
+openssl: for generating local certificates with refind-install
+python: for refind-mkdefault
+refind-docs: for HTML documentation
+sbsigntools: for EFI binary signing with refind-install
+sudo: for privilege elevation in refind-install and refind-mkdefault
+

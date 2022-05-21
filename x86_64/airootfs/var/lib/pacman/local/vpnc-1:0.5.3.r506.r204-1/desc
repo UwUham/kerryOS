@@ -1,0 +1,45 @@
+%NAME%
+vpnc
+
+%VERSION%
+1:0.5.3.r506.r204-1
+
+%BASE%
+vpnc
+
+%DESC%
+VPN client for cisco3000 VPN Concentrators
+
+%URL%
+https://github.com/streambinder/vpnc
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1651873070
+
+%INSTALLDATE%
+1653101772
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%SIZE%
+271467
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libgcrypt
+openssl
+iproute2
+which
+
+%OPTDEPENDS%
+openresolv: Let vpnc manage resolv.conf
+

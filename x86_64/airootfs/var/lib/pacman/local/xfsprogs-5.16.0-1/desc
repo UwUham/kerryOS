@@ -1,0 +1,48 @@
+%NAME%
+xfsprogs
+
+%VERSION%
+5.16.0-1
+
+%BASE%
+xfsprogs
+
+%DESC%
+XFS filesystem utilities
+
+%URL%
+https://xfs.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1651731006
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+3674523
+
+%LICENSE%
+LGPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+sh
+util-linux-libs
+icu
+device-mapper
+libinih
+liburcu
+
+%OPTDEPENDS%
+python: for xfs_scrub_all script
+smtp-forwarder: for xfs_scrub_fail script
+

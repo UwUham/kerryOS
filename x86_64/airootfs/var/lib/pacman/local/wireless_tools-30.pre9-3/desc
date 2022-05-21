@@ -1,0 +1,36 @@
+%NAME%
+wireless_tools
+
+%VERSION%
+30.pre9-3
+
+%BASE%
+wireless_tools
+
+%DESC%
+Tools allowing to manipulate the Wireless Extensions
+
+%URL%
+https://hewlettpackard.github.io/wireless-tools/Tools.html
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1573661581
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+Evangelos Foutras <evangelos@foutrelis.com>
+
+%SIZE%
+360722
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+

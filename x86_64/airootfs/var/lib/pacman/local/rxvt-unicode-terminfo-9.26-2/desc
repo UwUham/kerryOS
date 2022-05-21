@@ -1,0 +1,36 @@
+%NAME%
+rxvt-unicode-terminfo
+
+%VERSION%
+9.26-2
+
+%BASE%
+rxvt-unicode
+
+%DESC%
+Terminfo files for urxvt
+
+%URL%
+http://software.schmorp.de/pkg/rxvt-unicode.html
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1621855604
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%SIZE%
+4452
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+

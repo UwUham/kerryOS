@@ -1,0 +1,47 @@
+%NAME%
+usbutils
+
+%VERSION%
+014-2
+
+%BASE%
+usbutils
+
+%DESC%
+A collection of USB tools to query connected USB devices
+
+%URL%
+https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1641848715
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+322907
+
+%LICENSE%
+GPL2
+GPL3
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+hwdata
+libusb-1.0.so=0-64
+libudev.so=1-64
+
+%OPTDEPENDS%
+python: for lsusb.py usage
+coreutils: for lsusb.py usage
+

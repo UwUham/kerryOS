@@ -1,0 +1,1465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ms Basic Connect Extensions service: libmbim-glib Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="libmbim-glib Reference Manual">
+<link rel="up" href="ch03.html" title="Microsoft-defined services">
+<link rel="prev" href="ch03.html" title="Microsoft-defined services">
+<link rel="next" href="libmbim-glib-MS-UICC-Low-Level-Access.html" title="Ms Uicc Low Level Access service">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#libmbim-glib-Ms-Basic-Connect-Extensions.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch03.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ch03.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="libmbim-glib-MS-UICC-Low-Level-Access.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="libmbim-glib-Ms-Basic-Connect-Extensions"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libmbim-glib-Ms-Basic-Connect-Extensions.top_of_page"></a>Ms Basic Connect Extensions service</span></h2>
+<p>Ms Basic Connect Extensions service — Support for the Ms Basic Connect Extensions service.</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="libmbim-glib-Ms-Basic-Connect-Extensions.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-pco-value-free" title="mbim_pco_value_free ()">mbim_pco_value_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-lte-attach-configuration-array-free" title="mbim_lte_attach_configuration_array_free ()">mbim_lte_attach_configuration_array_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-slot-array-free" title="mbim_slot_array_free ()">mbim_slot_array_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-pco-query-new" title="mbim_message_ms_basic_connect_extensions_pco_query_new ()">mbim_message_ms_basic_connect_extensions_pco_query_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-pco-response-parse" title="mbim_message_ms_basic_connect_extensions_pco_response_parse ()">mbim_message_ms_basic_connect_extensions_pco_response_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-pco-notification-parse" title="mbim_message_ms_basic_connect_extensions_pco_notification_parse ()">mbim_message_ms_basic_connect_extensions_pco_notification_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-lte-attach-configuration-query-new" title="mbim_message_ms_basic_connect_extensions_lte_attach_configuration_query_new ()">mbim_message_ms_basic_connect_extensions_lte_attach_configuration_query_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-lte-attach-configuration-set-new" title="mbim_message_ms_basic_connect_extensions_lte_attach_configuration_set_new ()">mbim_message_ms_basic_connect_extensions_lte_attach_configuration_set_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-lte-attach-configuration-response-parse" title="mbim_message_ms_basic_connect_extensions_lte_attach_configuration_response_parse ()">mbim_message_ms_basic_connect_extensions_lte_attach_configuration_response_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-lte-attach-configuration-notification-parse" title="mbim_message_ms_basic_connect_extensions_lte_attach_configuration_notification_parse ()">mbim_message_ms_basic_connect_extensions_lte_attach_configuration_notification_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-lte-attach-info-query-new" title="mbim_message_ms_basic_connect_extensions_lte_attach_info_query_new ()">mbim_message_ms_basic_connect_extensions_lte_attach_info_query_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-lte-attach-info-response-parse" title="mbim_message_ms_basic_connect_extensions_lte_attach_info_response_parse ()">mbim_message_ms_basic_connect_extensions_lte_attach_info_response_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-lte-attach-info-notification-parse" title="mbim_message_ms_basic_connect_extensions_lte_attach_info_notification_parse ()">mbim_message_ms_basic_connect_extensions_lte_attach_info_notification_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-sys-caps-query-new" title="mbim_message_ms_basic_connect_extensions_sys_caps_query_new ()">mbim_message_ms_basic_connect_extensions_sys_caps_query_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-sys-caps-response-parse" title="mbim_message_ms_basic_connect_extensions_sys_caps_response_parse ()">mbim_message_ms_basic_connect_extensions_sys_caps_response_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-slot-info-status-query-new" title="mbim_message_ms_basic_connect_extensions_slot_info_status_query_new ()">mbim_message_ms_basic_connect_extensions_slot_info_status_query_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-slot-info-status-response-parse" title="mbim_message_ms_basic_connect_extensions_slot_info_status_response_parse ()">mbim_message_ms_basic_connect_extensions_slot_info_status_response_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-slot-info-status-notification-parse" title="mbim_message_ms_basic_connect_extensions_slot_info_status_notification_parse ()">mbim_message_ms_basic_connect_extensions_slot_info_status_notification_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-device-slot-mappings-query-new" title="mbim_message_ms_basic_connect_extensions_device_slot_mappings_query_new ()">mbim_message_ms_basic_connect_extensions_device_slot_mappings_query_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-device-slot-mappings-set-new" title="mbim_message_ms_basic_connect_extensions_device_slot_mappings_set_new ()">mbim_message_ms_basic_connect_extensions_device_slot_mappings_set_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-device-slot-mappings-response-parse" title="mbim_message_ms_basic_connect_extensions_device_slot_mappings_response_parse ()">mbim_message_ms_basic_connect_extensions_device_slot_mappings_response_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-device-caps-query-new" title="mbim_message_ms_basic_connect_extensions_device_caps_query_new ()">mbim_message_ms_basic_connect_extensions_device_caps_query_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-message-ms-basic-connect-extensions-device-caps-response-parse" title="mbim_message_ms_basic_connect_extensions_device_caps_response_parse ()">mbim_message_ms_basic_connect_extensions_device_caps_response_parse</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libmbim-glib-Ms-Basic-Connect-Extensions.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue">MbimPcoValue</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfiguration" title="MbimLteAttachConfiguration">MbimLteAttachConfiguration</a></td>
+</tr>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfigurationArray" title="MbimLteAttachConfigurationArray">MbimLteAttachConfigurationArray</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlot" title="MbimSlot">MbimSlot</a></td>
+</tr>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlotArray" title="MbimSlotArray">MbimSlotArray</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libmbim-glib-Ms-Basic-Connect-Extensions.description"></a><h2>Description</h2>
+<p>This section implements support for requests, responses and notifications in the
+Ms Basic Connect Extensions service.</p>
+</div>
+<div class="refsect1">
+<a name="libmbim-glib-Ms-Basic-Connect-Extensions.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="mbim-pco-value-free"></a><h3>mbim_pco_value_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mbim_pco_value_free (<em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a> *var</code></em>);</pre>
+<p>Frees the memory allocated for the <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a>.</p>
+<div class="refsect3">
+<a name="mbim-pco-value-free.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>var</p></td>
+<td class="parameter_description"><p>a <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-lte-attach-configuration-array-free"></a><h3>mbim_lte_attach_configuration_array_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mbim_lte_attach_configuration_array_free
+                               (<em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfigurationArray" title="MbimLteAttachConfigurationArray"><span class="type">MbimLteAttachConfigurationArray</span></a> *array</code></em>);</pre>
+<p>Frees the memory allocated for the array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfiguration" title="MbimLteAttachConfiguration"><span class="type">MbimLteAttachConfiguration</span></a> structs.</p>
+<div class="refsect3">
+<a name="mbim-lte-attach-configuration-array-free.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>array</p></td>
+<td class="parameter_description"><p>a <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><span class="type">NULL</span></a> terminated array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfiguration" title="MbimLteAttachConfiguration"><span class="type">MbimLteAttachConfiguration</span></a> structs.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-slot-array-free"></a><h3>mbim_slot_array_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mbim_slot_array_free (<em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlotArray" title="MbimSlotArray"><span class="type">MbimSlotArray</span></a> *array</code></em>);</pre>
+<p>Frees the memory allocated for the array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlot" title="MbimSlot"><span class="type">MbimSlot</span></a> structs.</p>
+<div class="refsect3">
+<a name="mbim-slot-array-free.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>array</p></td>
+<td class="parameter_description"><p>a <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><span class="type">NULL</span></a> terminated array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlot" title="MbimSlot"><span class="type">MbimSlot</span></a> structs.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-pco-query-new"></a><h3>mbim_message_ms_basic_connect_extensions_pco_query_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_pco_query_new
+                               (<em class="parameter"><code>const <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a> *pco_value</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'PCO' query command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-pco-query-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>pco_value</p></td>
+<td class="parameter_description"><p>the 'PcoValue' field, given as a <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-pco-query-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-pco-response-parse"></a><h3>mbim_message_ms_basic_connect_extensions_pco_response_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_pco_response_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a> **out_pco_value</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'PCO' response command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-pco-response-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_pco_value</p></td>
+<td class="parameter_description"><p>return location for a newly allocated <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'PcoValue' field is not needed. Free the returned value with <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-pco-value-free" title="mbim_pco_value_free ()"><code class="function">mbim_pco_value_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-pco-response-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-pco-notification-parse"></a><h3>mbim_message_ms_basic_connect_extensions_pco_notification_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_pco_notification_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a> **out_pco_value</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'PCO' notification command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-pco-notification-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_pco_value</p></td>
+<td class="parameter_description"><p>return location for a newly allocated <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimPcoValue" title="MbimPcoValue"><span class="type">MbimPcoValue</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'PcoValue' field is not needed. Free the returned value with <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-pco-value-free" title="mbim_pco_value_free ()"><code class="function">mbim_pco_value_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-pco-notification-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-query-new"></a><h3>mbim_message_ms_basic_connect_extensions_lte_attach_configuration_query_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_lte_attach_configuration_query_new
+                               (<em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Lte Attach Configuration' query command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-query-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-query-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-set-new"></a><h3>mbim_message_ms_basic_connect_extensions_lte_attach_configuration_set_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_lte_attach_configuration_set_new
+                               (<em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimLteAttachContextOperation" title="enum MbimLteAttachContextOperation"><span class="type">MbimLteAttachContextOperation</span></a> operation</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> configuration_count</code></em>,
+                                <em class="parameter"><code>const <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfiguration" title="MbimLteAttachConfiguration"><span class="type">MbimLteAttachConfiguration</span></a> *const *configurations</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Lte Attach Configuration' set command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-set-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>operation</p></td>
+<td class="parameter_description"><p>the 'Operation' field, given as a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimLteAttachContextOperation" title="enum MbimLteAttachContextOperation"><span class="type">MbimLteAttachContextOperation</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>configuration_count</p></td>
+<td class="parameter_description"><p>the 'ConfigurationCount' field, given as a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>configurations</p></td>
+<td class="parameter_description"><p>the 'Configurations' field, given as an array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfiguration" title="MbimLteAttachConfiguration"><span class="type">MbimLteAttachConfiguration</span></a> items. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-set-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-response-parse"></a><h3>mbim_message_ms_basic_connect_extensions_lte_attach_configuration_response_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_lte_attach_configuration_response_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_configuration_count</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfigurationArray" title="MbimLteAttachConfigurationArray"><span class="type">MbimLteAttachConfigurationArray</span></a> **out_configurations</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Lte Attach Configuration' response command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-response-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_configuration_count</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'ConfigurationCount' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_configurations</p></td>
+<td class="parameter_description"><p>return location for a newly allocated array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfiguration" title="MbimLteAttachConfiguration"><span class="type">MbimLteAttachConfiguration</span></a> items, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'Configurations' field is not needed. Free the returned value with <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-lte-attach-configuration-array-free" title="mbim_lte_attach_configuration_array_free ()"><code class="function">mbim_lte_attach_configuration_array_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> zero-terminated=1][<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> MbimLteAttachConfiguration]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-response-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-notification-parse"></a><h3>mbim_message_ms_basic_connect_extensions_lte_attach_configuration_notification_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_lte_attach_configuration_notification_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_configuration_count</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfigurationArray" title="MbimLteAttachConfigurationArray"><span class="type">MbimLteAttachConfigurationArray</span></a> **out_configurations</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Lte Attach Configuration' notification command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-notification-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_configuration_count</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'ConfigurationCount' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_configurations</p></td>
+<td class="parameter_description"><p>return location for a newly allocated array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimLteAttachConfiguration" title="MbimLteAttachConfiguration"><span class="type">MbimLteAttachConfiguration</span></a> items, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'Configurations' field is not needed. Free the returned value with <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-lte-attach-configuration-array-free" title="mbim_lte_attach_configuration_array_free ()"><code class="function">mbim_lte_attach_configuration_array_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> zero-terminated=1][<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> MbimLteAttachConfiguration]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-configuration-notification-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-query-new"></a><h3>mbim_message_ms_basic_connect_extensions_lte_attach_info_query_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_lte_attach_info_query_new
+                               (<em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Lte Attach Info' query command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-query-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-query-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-response-parse"></a><h3>mbim_message_ms_basic_connect_extensions_lte_attach_info_response_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_lte_attach_info_response_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimLteAttachState" title="enum MbimLteAttachState"><span class="type">MbimLteAttachState</span></a> *out_lte_attach_state</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimContextIpType" title="enum MbimContextIpType"><span class="type">MbimContextIpType</span></a> *out_ip_type</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_access_string</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_user_name</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_password</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCompression" title="enum MbimCompression"><span class="type">MbimCompression</span></a> *out_compression</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimAuthProtocol" title="enum MbimAuthProtocol"><span class="type">MbimAuthProtocol</span></a> *out_auth_protocol</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Lte Attach Info' response command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-response-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_lte_attach_state</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimLteAttachState" title="enum MbimLteAttachState"><span class="type">MbimLteAttachState</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'LteAttachState' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_ip_type</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimContextIpType" title="enum MbimContextIpType"><span class="type">MbimContextIpType</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'IpType' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_access_string</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'AccessString' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_user_name</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'UserName' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_password</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'Password' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_compression</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCompression" title="enum MbimCompression"><span class="type">MbimCompression</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'Compression' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_auth_protocol</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimAuthProtocol" title="enum MbimAuthProtocol"><span class="type">MbimAuthProtocol</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'AuthProtocol' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-response-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-notification-parse"></a><h3>mbim_message_ms_basic_connect_extensions_lte_attach_info_notification_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_lte_attach_info_notification_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimLteAttachState" title="enum MbimLteAttachState"><span class="type">MbimLteAttachState</span></a> *out_lte_attach_state</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimContextIpType" title="enum MbimContextIpType"><span class="type">MbimContextIpType</span></a> *out_ip_type</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_access_string</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_user_name</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_password</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCompression" title="enum MbimCompression"><span class="type">MbimCompression</span></a> *out_compression</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimAuthProtocol" title="enum MbimAuthProtocol"><span class="type">MbimAuthProtocol</span></a> *out_auth_protocol</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Lte Attach Info' notification command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-notification-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_lte_attach_state</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimLteAttachState" title="enum MbimLteAttachState"><span class="type">MbimLteAttachState</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'LteAttachState' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_ip_type</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimContextIpType" title="enum MbimContextIpType"><span class="type">MbimContextIpType</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'IpType' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_access_string</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'AccessString' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_user_name</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'UserName' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_password</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'Password' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_compression</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCompression" title="enum MbimCompression"><span class="type">MbimCompression</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'Compression' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_auth_protocol</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimAuthProtocol" title="enum MbimAuthProtocol"><span class="type">MbimAuthProtocol</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'AuthProtocol' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-lte-attach-info-notification-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-sys-caps-query-new"></a><h3>mbim_message_ms_basic_connect_extensions_sys_caps_query_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_sys_caps_query_new
+                               (<em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Sys Caps' query command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-sys-caps-query-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-sys-caps-query-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-sys-caps-response-parse"></a><h3>mbim_message_ms_basic_connect_extensions_sys_caps_response_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_sys_caps_response_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_number_of_executors</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_number_of_slots</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_concurrency</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *out_modem_id</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Sys Caps' response command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-sys-caps-response-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_number_of_executors</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'NumberOfExecutors' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_number_of_slots</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'NumberOfSlots' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_concurrency</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'Concurrency' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_modem_id</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'ModemId' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-sys-caps-response-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-query-new"></a><h3>mbim_message_ms_basic_connect_extensions_slot_info_status_query_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_slot_info_status_query_new
+                               (<em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> slot_index</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Slot Info Status' query command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-query-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>slot_index</p></td>
+<td class="parameter_description"><p>the 'SlotIndex' field, given as a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-query-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-response-parse"></a><h3>mbim_message_ms_basic_connect_extensions_slot_info_status_response_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_slot_info_status_response_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_slot_index</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimUiccSlotState" title="enum MbimUiccSlotState"><span class="type">MbimUiccSlotState</span></a> *out_state</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Slot Info Status' response command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-response-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_slot_index</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'SlotIndex' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_state</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimUiccSlotState" title="enum MbimUiccSlotState"><span class="type">MbimUiccSlotState</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'State' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-response-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-notification-parse"></a><h3>mbim_message_ms_basic_connect_extensions_slot_info_status_notification_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_slot_info_status_notification_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_slot_index</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimUiccSlotState" title="enum MbimUiccSlotState"><span class="type">MbimUiccSlotState</span></a> *out_state</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Slot Info Status' notification command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-notification-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_slot_index</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'SlotIndex' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_state</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimUiccSlotState" title="enum MbimUiccSlotState"><span class="type">MbimUiccSlotState</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'State' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-slot-info-status-notification-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-query-new"></a><h3>mbim_message_ms_basic_connect_extensions_device_slot_mappings_query_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_device_slot_mappings_query_new
+                               (<em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Device Slot Mappings' query command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-query-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-query-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-set-new"></a><h3>mbim_message_ms_basic_connect_extensions_device_slot_mappings_set_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_device_slot_mappings_set_new
+                               (<em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> map_count</code></em>,
+                                <em class="parameter"><code>const <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlot" title="MbimSlot"><span class="type">MbimSlot</span></a> *const *slot_map</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Device Slot Mappings' set command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-set-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>map_count</p></td>
+<td class="parameter_description"><p>the 'MapCount' field, given as a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>slot_map</p></td>
+<td class="parameter_description"><p>the 'SlotMap' field, given as an array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlot" title="MbimSlot"><span class="type">MbimSlot</span></a> items. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-set-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-response-parse"></a><h3>mbim_message_ms_basic_connect_extensions_device_slot_mappings_response_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_device_slot_mappings_response_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_map_count</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlotArray" title="MbimSlotArray"><span class="type">MbimSlotArray</span></a> **out_slot_map</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Device Slot Mappings' response command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-response-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_map_count</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'MapCount' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_slot_map</p></td>
+<td class="parameter_description"><p>return location for a newly allocated array of <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#MbimSlot" title="MbimSlot"><span class="type">MbimSlot</span></a> items, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'SlotMap' field is not needed. Free the returned value with <a class="link" href="libmbim-glib-Ms-Basic-Connect-Extensions.html#mbim-slot-array-free" title="mbim_slot_array_free ()"><code class="function">mbim_slot_array_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> zero-terminated=1][<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> MbimSlot]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-slot-mappings-response-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-device-caps-query-new"></a><h3>mbim_message_ms_basic_connect_extensions_device_caps_query_new ()</h3>
+<pre class="programlisting"><a class="link" href="MbimMessage.html" title="MbimMessage"><span class="returnvalue">MbimMessage</span></a> *
+mbim_message_ms_basic_connect_extensions_device_caps_query_new
+                               (<em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Create a new request for the 'Device Caps' query command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-caps-query-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-caps-query-new.returns"></a><h4>Returns</h4>
+<p> a newly allocated <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>, which should be freed with <a class="link" href="MbimMessage.html#mbim-message-unref" title="mbim_message_unref ()"><code class="function">mbim_message_unref()</code></a>.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mbim-message-ms-basic-connect-extensions-device-caps-response-parse"></a><h3>mbim_message_ms_basic_connect_extensions_device_caps_response_parse ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mbim_message_ms_basic_connect_extensions_device_caps_response_parse
+                               (<em class="parameter"><code>const <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a> *message</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimDeviceType" title="enum MbimDeviceType"><span class="type">MbimDeviceType</span></a> *out_device_type</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCellularClass" title="enum MbimCellularClass"><span class="type">MbimCellularClass</span></a> *out_cellular_class</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimVoiceClass" title="enum MbimVoiceClass"><span class="type">MbimVoiceClass</span></a> *out_voice_class</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimSimClass" title="enum MbimSimClass"><span class="type">MbimSimClass</span></a> *out_sms_class</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimDataClass" title="enum MbimDataClass"><span class="type">MbimDataClass</span></a> *out_data_class</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimSmsCaps" title="enum MbimSmsCaps"><span class="type">MbimSmsCaps</span></a> *out_sms_caps</code></em>,
+                                <em class="parameter"><code><a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCtrlCaps" title="enum MbimCtrlCaps"><span class="type">MbimCtrlCaps</span></a> *out_control_caps</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_max_sessions</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_custom_data_class</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_device_id</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_firmware_info</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **out_hardware_info</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> *out_executor_index</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses and returns parameters of the 'Device Caps' response command in the 'Ms Basic Connect Extensions' service.</p>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-caps-response-parse.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>the <a class="link" href="MbimMessage.html" title="MbimMessage"><span class="type">MbimMessage</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_device_type</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimDeviceType" title="enum MbimDeviceType"><span class="type">MbimDeviceType</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'DeviceType' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_cellular_class</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCellularClass" title="enum MbimCellularClass"><span class="type">MbimCellularClass</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'CellularClass' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_voice_class</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimVoiceClass" title="enum MbimVoiceClass"><span class="type">MbimVoiceClass</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'VoiceClass' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_sms_class</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimSimClass" title="enum MbimSimClass"><span class="type">MbimSimClass</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'SmsClass' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_data_class</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimDataClass" title="enum MbimDataClass"><span class="type">MbimDataClass</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'DataClass' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_sms_caps</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimSmsCaps" title="enum MbimSmsCaps"><span class="type">MbimSmsCaps</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'SmsCaps' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_control_caps</p></td>
+<td class="parameter_description"><p>return location for a <a class="link" href="libmbim-glib-Enumerations-and-Flags.html#MbimCtrlCaps" title="enum MbimCtrlCaps"><span class="type">MbimCtrlCaps</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'ControlCaps' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_max_sessions</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'MaxSessions' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_custom_data_class</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'CustomDataClass' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_device_id</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'DeviceId' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_firmware_info</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'FirmwareInfo' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_hardware_info</p></td>
+<td class="parameter_description"><p>return location for a newly allocated string, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'HardwareInfo' field is not needed. Free the returned value with <a href="../glib/glib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out_executor_index</p></td>
+<td class="parameter_description"><p>return location for a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the 'ExecutorIndex' field is not needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for error or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mbim-message-ms-basic-connect-extensions-device-caps-response-parse.returns"></a><h4>Returns</h4>
+<p> <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the message was correctly parsed, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if <em class="parameter"><code>error</code></em>
+is set.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="libmbim-glib-Ms-Basic-Connect-Extensions.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="MbimPcoValue"></a><h3>MbimPcoValue</h3>
+<pre class="programlisting">typedef struct {
+    guint32 session_id;
+    guint32 pco_data_size;
+    guint32 pco_data_type;
+    guint8 *pco_data_buffer;
+} MbimPcoValue;
+</pre>
+<p>A MbimPcoValue element.</p>
+<div class="refsect3">
+<a name="MbimPcoValue.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimPcoValue.session-id"></a>session_id</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimPcoValue.pco-data-size"></a>pco_data_size</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimPcoValue.pco-data-type"></a>pco_data_type</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint8"><span class="type">guint8</span></a> *<em class="structfield"><code><a name="MbimPcoValue.pco-data-buffer"></a>pco_data_buffer</code></em>;</p></td>
+<td class="struct_member_description"><p>an array of <a href="../glib/glib-Basic-Types.html#guint8"><span class="type">guint8</span></a> values.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="MbimLteAttachConfiguration"></a><h3>MbimLteAttachConfiguration</h3>
+<pre class="programlisting">typedef struct {
+    guint32 ip_type;
+    guint32 roaming;
+    guint32 source;
+    gchar *access_string;
+    gchar *user_name;
+    gchar *password;
+    guint32 compression;
+    guint32 auth_protocol;
+} MbimLteAttachConfiguration;
+</pre>
+<p>A MbimLteAttachConfiguration element.</p>
+<div class="refsect3">
+<a name="MbimLteAttachConfiguration.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimLteAttachConfiguration.ip-type"></a>ip_type</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimLteAttachConfiguration.roaming"></a>roaming</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimLteAttachConfiguration.source"></a>source</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *<em class="structfield"><code><a name="MbimLteAttachConfiguration.access-string"></a>access_string</code></em>;</p></td>
+<td class="struct_member_description"><p>a string.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *<em class="structfield"><code><a name="MbimLteAttachConfiguration.user-name"></a>user_name</code></em>;</p></td>
+<td class="struct_member_description"><p>a string.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *<em class="structfield"><code><a name="MbimLteAttachConfiguration.password"></a>password</code></em>;</p></td>
+<td class="struct_member_description"><p>a string.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimLteAttachConfiguration.compression"></a>compression</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimLteAttachConfiguration.auth-protocol"></a>auth_protocol</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-18.html#api-index-1.18">1.18</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="MbimLteAttachConfigurationArray"></a><h3>MbimLteAttachConfigurationArray</h3>
+<pre class="programlisting">typedef MbimLteAttachConfiguration *MbimLteAttachConfigurationArray;
+</pre>
+<p>A NULL-terminated array of MbimLteAttachConfiguration elements.</p>
+<p class="since">Since: <a class="link" href="api-index-1-24.html#api-index-1.24">1.24</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="MbimSlot"></a><h3>MbimSlot</h3>
+<pre class="programlisting">typedef struct {
+    guint32 slot;
+} MbimSlot;
+</pre>
+<p>A MbimSlot element.</p>
+<div class="refsect3">
+<a name="MbimSlot.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody><tr>
+<td class="struct_member_name"><p><a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> <em class="structfield"><code><a name="MbimSlot.slot"></a>slot</code></em>;</p></td>
+<td class="struct_member_description"><p>a <a href="../glib/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="MbimSlotArray"></a><h3>MbimSlotArray</h3>
+<pre class="programlisting">typedef MbimSlot *MbimSlotArray;
+</pre>
+<p>A NULL-terminated array of MbimSlot elements.</p>
+<p class="since">Since: <a class="link" href="api-index-1-26.html#api-index-1.26">1.26</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

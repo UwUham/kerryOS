@@ -1,0 +1,36 @@
+%NAME%
+darkhttpd
+
+%VERSION%
+1.13-1
+
+%BASE%
+darkhttpd
+
+%DESC%
+A small and secure static webserver
+
+%URL%
+https://unix4lyfe.org/darkhttpd/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1614513857
+
+%INSTALLDATE%
+1653101770
+
+%PACKAGER%
+Christian Hesse <arch@eworm.de>
+
+%SIZE%
+48621
+
+%LICENSE%
+BSD
+
+%VALIDATION%
+pgp
+

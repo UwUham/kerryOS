@@ -1,0 +1,60 @@
+%NAME%
+python
+
+%VERSION%
+3.10.4-1
+
+%BASE%
+python
+
+%DESC%
+Next generation of the python high-level scripting language
+
+%URL%
+https://www.python.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648076740
+
+%INSTALLDATE%
+1653101767
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%SIZE%
+57018283
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+python3
+
+%DEPENDS%
+bzip2
+expat
+gdbm
+libffi
+libnsl
+libxcrypt
+openssl
+zlib
+
+%OPTDEPENDS%
+python-setuptools
+python-pip
+sqlite
+mpdecimal: for decimal
+xz: for lzma
+tk: for tkinter
+
+%PROVIDES%
+python3
+

@@ -1,0 +1,11 @@
+prefix=/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libnvme
+Description: Manage "libnvme" subsystem devices (Non-volatile Memory Express)
+URL: http://github.com/linux-nvme/libnvme/
+Version: 1.0
+Requires.private: uuid, json-c >= 0.13, openssl >= 1.1.0
+Libs: -L${libdir} -lnvme
+Cflags: -I${includedir}

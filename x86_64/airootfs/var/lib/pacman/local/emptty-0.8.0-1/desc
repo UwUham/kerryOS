@@ -1,0 +1,46 @@
+%NAME%
+emptty
+
+%VERSION%
+0.8.0-1
+
+%BASE%
+emptty
+
+%DESC%
+Dead simple CLI Display Manager on TTY
+
+%URL%
+https://github.com/tvrzna/emptty
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1653099164
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+2453715
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+pam
+libx11
+
+%OPTDEPENDS%
+xorg-server: default display server
+xorg-xauth: required if using xorg-server
+util-linux: mcookie required if using xorg-server
+wayland: alternative to xorg-server
+

@@ -1,0 +1,42 @@
+%NAME%
+reflector
+
+%VERSION%
+2021.11-3
+
+%BASE%
+reflector
+
+%DESC%
+A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+
+%URL%
+https://xyne.dev/projects/reflector
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645747380
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+Leonidas Spyropoulos <artafinde@archlinux.org>
+
+%SIZE%
+105642
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python3
+
+%OPTDEPENDS%
+rsync: rate rsync mirrors
+

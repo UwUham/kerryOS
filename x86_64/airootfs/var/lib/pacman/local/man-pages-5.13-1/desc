@@ -1,0 +1,37 @@
+%NAME%
+man-pages
+
+%VERSION%
+5.13-1
+
+%BASE%
+man-pages
+
+%DESC%
+Linux man pages
+
+%URL%
+https://www.kernel.org/doc/man-pages/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1630101983
+
+%INSTALLDATE%
+1653101772
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+6013496
+
+%LICENSE%
+GPL
+custom
+
+%VALIDATION%
+pgp
+

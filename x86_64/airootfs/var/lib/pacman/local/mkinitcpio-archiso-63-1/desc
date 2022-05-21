@@ -1,0 +1,47 @@
+%NAME%
+mkinitcpio-archiso
+
+%VERSION%
+63-1
+
+%BASE%
+mkinitcpio-archiso
+
+%DESC%
+Initcpio scripts used by archiso
+
+%URL%
+https://gitlab.archlinux.org/mkinitcpio/mkinitcpio-archiso
+
+%ARCH%
+any
+
+%BUILDDATE%
+1651149556
+
+%INSTALLDATE%
+1653101772
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%SIZE%
+39107
+
+%LICENSE%
+GPL3
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+bash
+device-mapper
+mkinitcpio
+
+%OPTDEPENDS%
+curl: for PXE over HTTP
+mkinitcpio-nfs-utils: for PXE over NFS
+nbd: for PXE over NBD
+pv: for status display during copy to RAM
+

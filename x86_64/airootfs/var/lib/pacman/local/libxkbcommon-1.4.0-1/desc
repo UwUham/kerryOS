@@ -1,0 +1,51 @@
+%NAME%
+libxkbcommon
+
+%VERSION%
+1.4.0-1
+
+%BASE%
+libxkbcommon
+
+%DESC%
+Keymap handling library for toolkits and window systems
+
+%URL%
+https://xkbcommon.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644029769
+
+%INSTALLDATE%
+1653101776
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+797247
+
+%REASON%
+1
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+xkeyboard-config
+libxml2
+
+%OPTDEPENDS%
+libxkbcommon-x11: xkbcli interactive-x11
+wayland: xkbcli interactive-wayland
+
+%PROVIDES%
+libxkbcommon.so=0-64
+libxkbregistry.so=0-64
+

@@ -1,0 +1,58 @@
+%NAME%
+btrfs-progs
+
+%VERSION%
+5.17-1
+
+%BASE%
+btrfs-progs
+
+%DESC%
+Btrfs filesystem utilities
+
+%URL%
+https://btrfs.wiki.kernel.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1651078079
+
+%INSTALLDATE%
+1653101769
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+5314694
+
+%LICENSE%
+GPL2
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+btrfs-progs-unstable
+
+%DEPENDS%
+glibc
+util-linux-libs
+lzo
+zlib
+zstd
+libgcrypt
+
+%OPTDEPENDS%
+python: libbtrfsutil python bindings
+e2fsprogs: btrfs-convert
+reiserfsprogs: btrfs-convert
+
+%CONFLICTS%
+btrfs-progs-unstable
+
+%PROVIDES%
+btrfs-progs-unstable
+

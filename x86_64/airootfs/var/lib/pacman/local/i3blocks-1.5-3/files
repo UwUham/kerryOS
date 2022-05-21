@@ -1,0 +1,17 @@
+%FILES%
+etc/
+etc/i3blocks.conf
+usr/
+usr/bin/
+usr/bin/i3blocks
+usr/share/
+usr/share/bash-completion/
+usr/share/bash-completion/completions/
+usr/share/bash-completion/completions/i3blocks
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/i3blocks.1.gz
+
+%BACKUP%
+etc/i3blocks.conf	32f3227a26cb31c027bd2bba9b2352f8
+

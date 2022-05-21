@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="GDK-PixBuf-Xlib Reference Manual" link="index.html" author="Federico Mena Quintero" name="gdk-pixbuf-xlib" version="2" language="c" online="http://library.gnome.org/devel/gdk-pixbuf/unstable/">
+  <chapters>
+    <sub name="API Reference" link="rn01.html">
+      <sub name="Xlib integration (deprecated)" link="Xlib.html">
+        <sub name="gdk-pixbuf Xlib initialization" link="gdk-pixbuf-xlib-gdk-pixbuf-Xlib-initialization.html"/>
+        <sub name="Xlib Rendering" link="gdk-pixbuf-xlib-Xlib-Rendering.html"/>
+        <sub name="X Drawables to Pixbufs" link="gdk-pixbuf-xlib-X-Drawables-to-Pixbufs.html"/>
+        <sub name="XlibRGB" link="gdk-pixbuf-xlib-XlibRGB.html"/>
+      </sub>
+    </sub>
+    <sub name="Index of all symbols" link="api-index-full.html"/>
+    <sub name="Index of deprecated symbols" link="api-index-deprecated.html"/>
+    <sub name="License" link="license.html"/>
+  </chapters>
+  <functions>
+    <keyword type="function" name="gdk_pixbuf_xlib_init ()" link="gdk-pixbuf-xlib-gdk-pixbuf-Xlib-initialization.html#gdk-pixbuf-xlib-init"/>
+    <keyword type="function" name="gdk_pixbuf_xlib_init_with_depth ()" link="gdk-pixbuf-xlib-gdk-pixbuf-Xlib-initialization.html#gdk-pixbuf-xlib-init-with-depth"/>
+    <keyword type="function" name="gdk_pixbuf_xlib_render_threshold_alpha ()" link="gdk-pixbuf-xlib-Xlib-Rendering.html#gdk-pixbuf-xlib-render-threshold-alpha"/>
+    <keyword type="function" name="gdk_pixbuf_xlib_render_to_drawable ()" link="gdk-pixbuf-xlib-Xlib-Rendering.html#gdk-pixbuf-xlib-render-to-drawable"/>
+    <keyword type="function" name="gdk_pixbuf_xlib_render_to_drawable_alpha ()" link="gdk-pixbuf-xlib-Xlib-Rendering.html#gdk-pixbuf-xlib-render-to-drawable-alpha"/>
+    <keyword type="function" name="gdk_pixbuf_xlib_render_pixmap_and_mask ()" link="gdk-pixbuf-xlib-Xlib-Rendering.html#gdk-pixbuf-xlib-render-pixmap-and-mask"/>
+    <keyword type="function" name="gdk_pixbuf_xlib_get_from_drawable ()" link="gdk-pixbuf-xlib-X-Drawables-to-Pixbufs.html#gdk-pixbuf-xlib-get-from-drawable"/>
+    <keyword type="function" name="xlib_rgb_init ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-init"/>
+    <keyword type="function" name="xlib_rgb_init_with_depth ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-init-with-depth"/>
+    <keyword type="function" name="xlib_rgb_xpixel_from_rgb ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-xpixel-from-rgb"/>
+    <keyword type="function" name="xlib_rgb_gc_set_foreground ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-gc-set-foreground"/>
+    <keyword type="function" name="xlib_rgb_gc_set_background ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-gc-set-background"/>
+    <keyword type="function" name="xlib_draw_rgb_image ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-draw-rgb-image"/>
+    <keyword type="function" name="xlib_draw_rgb_image_dithalign ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-draw-rgb-image-dithalign"/>
+    <keyword type="function" name="xlib_draw_rgb_32_image ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-draw-rgb-32-image"/>
+    <keyword type="function" name="xlib_draw_gray_image ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-draw-gray-image"/>
+    <keyword type="function" name="xlib_rgb_cmap_new ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-cmap-new"/>
+    <keyword type="function" name="xlib_rgb_cmap_free ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-cmap-free"/>
+    <keyword type="function" name="xlib_draw_indexed_image ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-draw-indexed-image"/>
+    <keyword type="function" name="xlib_rgb_ditherable ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-ditherable"/>
+    <keyword type="function" name="xlib_rgb_set_verbose ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-set-verbose"/>
+    <keyword type="function" name="xlib_rgb_set_install ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-set-install"/>
+    <keyword type="function" name="xlib_rgb_set_min_colors ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-set-min-colors"/>
+    <keyword type="function" name="xlib_rgb_get_cmap ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-get-cmap"/>
+    <keyword type="function" name="xlib_rgb_get_visual ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-get-visual"/>
+    <keyword type="function" name="xlib_rgb_get_visual_info ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-get-visual-info"/>
+    <keyword type="function" name="xlib_rgb_get_depth ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-get-depth"/>
+    <keyword type="function" name="xlib_rgb_get_display ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-get-display"/>
+    <keyword type="function" name="xlib_rgb_get_screen ()" link="gdk-pixbuf-xlib-XlibRGB.html#xlib-rgb-get-screen"/>
+    <keyword type="struct" name="struct XlibRgbCmap" link="gdk-pixbuf-xlib-XlibRGB.html#XlibRgbCmap"/>
+    <keyword type="enum" name="enum XlibRgbDither" link="gdk-pixbuf-xlib-XlibRGB.html#XlibRgbDither"/>
+    <keyword type="constant" name="XLIB_RGB_DITHER_NONE" link="gdk-pixbuf-xlib-XlibRGB.html#XLIB-RGB-DITHER-NONE:CAPS"/>
+    <keyword type="constant" name="XLIB_RGB_DITHER_NORMAL" link="gdk-pixbuf-xlib-XlibRGB.html#XLIB-RGB-DITHER-NORMAL:CAPS"/>
+    <keyword type="constant" name="XLIB_RGB_DITHER_MAX" link="gdk-pixbuf-xlib-XlibRGB.html#XLIB-RGB-DITHER-MAX:CAPS"/>
+    <keyword type="member" name="XlibRgbCmap.colors" link="gdk-pixbuf-xlib-XlibRGB.html#XlibRgbCmap.colors"/>
+    <keyword type="member" name="XlibRgbCmap.lut" link="gdk-pixbuf-xlib-XlibRGB.html#XlibRgbCmap.lut"/>
+  </functions>
+</book>

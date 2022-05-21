@@ -1,0 +1,9 @@
+includedir=/usr/include
+libdir=/usr/lib
+
+Name: libopeniscsiusr
+Version: 
+Description: iSCSI userspace library
+Requires:
+Libs: -L${libdir} -lopeniscsiusr
+Cflags: -I${includedir}

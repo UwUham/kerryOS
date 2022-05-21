@@ -1,0 +1,53 @@
+%NAME%
+linux
+
+%VERSION%
+5.17.9.arch1-1
+
+%BASE%
+linux
+
+%DESC%
+The Linux kernel and modules
+
+%URL%
+https://github.com/archlinux/linux/commits/v5.17.9-arch1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1652895011
+
+%INSTALLDATE%
+1653101769
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+167642963
+
+%LICENSE%
+GPL2
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+
+%PROVIDES%
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+

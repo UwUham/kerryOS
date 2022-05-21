@@ -1,0 +1,45 @@
+%NAME%
+python-jinja
+
+%VERSION%
+1:3.0.3-2
+
+%BASE%
+python-jinja
+
+%DESC%
+A simple pythonic template language written in Python
+
+%URL%
+https://palletsprojects.com/p/jinja/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1651116647
+
+%INSTALLDATE%
+1653101770
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%SIZE%
+1357581
+
+%REASON%
+1
+
+%LICENSE%
+BSD
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python-markupsafe
+
+%OPTDEPENDS%
+python-babel: for i18n support
+

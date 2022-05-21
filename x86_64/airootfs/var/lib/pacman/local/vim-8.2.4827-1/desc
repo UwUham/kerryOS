@@ -1,0 +1,67 @@
+%NAME%
+vim
+
+%VERSION%
+8.2.4827-1
+
+%BASE%
+vim
+
+%DESC%
+Vi Improved, a highly configurable, improved version of the vi text editor
+
+%URL%
+https://www.vim.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1650924805
+
+%INSTALLDATE%
+1653101773
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%SIZE%
+4810306
+
+%LICENSE%
+custom:vim
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+vim-python3
+vim-minimal
+
+%DEPENDS%
+vim-runtime=8.2.4827-1
+gpm
+acl
+glibc
+libgcrypt
+pcre
+zlib
+
+%OPTDEPENDS%
+python: Python 3 language support
+ruby: Ruby language support
+lua: Lua language support
+perl: Perl language support
+tcl: Tcl language support
+
+%CONFLICTS%
+gvim
+vim-minimal
+vim-python3
+
+%PROVIDES%
+xxd
+vim-minimal
+vim-python3
+vim-plugin-runtime
+

@@ -1,0 +1,57 @@
+%NAME%
+open-vm-tools
+
+%VERSION%
+6:12.0.0-1
+
+%BASE%
+open-vm-tools
+
+%DESC%
+The Open Virtual Machine Tools (open-vm-tools) are the open source implementation of VMware Tools
+
+%URL%
+https://github.com/vmware/open-vm-tools
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646511183
+
+%INSTALLDATE%
+1653101772
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%SIZE%
+4325105
+
+%LICENSE%
+LGPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+fuse2
+icu
+iproute2
+libdnet
+libmspack
+libsigc++
+libxcrypt
+libcrypt.so=2-64
+libxss
+lsb-release
+procps-ng
+uriparser
+gdk-pixbuf-xlib
+
+%OPTDEPENDS%
+gtkmm3: DnD/CP plugin
+libxtst: DnD/CP, resolution set plugins
+netctl: suspend-resume network state
+networkmanager: suspend-resume network state
+

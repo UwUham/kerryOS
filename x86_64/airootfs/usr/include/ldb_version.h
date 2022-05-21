@@ -1,0 +1,4 @@
+#define LDB_VERSION "2.5.0"
+#define LDB_VERSION_MAJOR 2
+#define LDB_VERSION_MINOR 5
+#define LDB_VERSION_RELEASE 0
